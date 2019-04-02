@@ -3,37 +3,6 @@
 #### General configuration ####
 ###############################
 
-# HBASE Config
-hbase.zookeeper.quorum: "10.81.161.7"
-hbase.zookeeper.property.clientPort: "2181"
-hbase.master: "10.81.161.7:60000"
-zookeeper.znode.parent: "/hbase-unsecure"
-TABLE_NAME: "station"
-BACKHAUL_TABLE_NAME: "topology"
-
-# HADOOP
-HADOOP_HOME_DIR: "/usr/hdp/3.0.0.0-1634/hadoop"
-HADOOP_CORE_SITE: "/usr/hdp/3.0.0.0-1634/hadoop/etc/hadoop/core-site.xml"
-HDFS_DIR: "hdfs:///DataAnalysisAlgorithmsOutput/"
-
-# Network id list
-NetworkId_list_file_path: "/mnt/dev-apps/algorithms/gatewayList.csv"
-
-###############################
-#### Algorithms parameters ####
-###############################
-
-NB_PAST_DAYS: "7"
-
-# NoiseDetectionPart1
-NOISE_THRESHOLD: "-80"
-
-# ExtenderPacketsAlg
-EXTENDER_DEPLOY_STATUS_THR : "35"
-
-# StationPacketsAlg
-STATION_INTERFERENCE_ISSUE_THR : "10"
-STATION_CONGESTION_ISSUE_THR : "10"
 
 
 
